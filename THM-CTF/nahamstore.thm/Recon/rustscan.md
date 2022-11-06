@@ -4,10 +4,11 @@
 The three open ports are 22 SSH, 80 HTTP and 8000 HTTP.
 
 scaned result 
-
+```
 Open 10.10.132.21:22
 Open 10.10.132.21:80
 Open 10.10.132.21:8000
+```
 
 ```
 22/tcp   open  ssh     syn-ack ttl 63 OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
