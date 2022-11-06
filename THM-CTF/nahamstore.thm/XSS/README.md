@@ -74,3 +74,13 @@ value="12"
 value=""<script>alert("hacked by nazu")";" | boom! 
 
 ```answer = discount```
+ 
+ # burp
+ ![burp](https://user-images.githubusercontent.com/108541991/200171153-be5e2dc1-e88e-4868-a4b1-94d4a14c320f.jpg)
+
+ # boom! xss
+ 
+ ![xss2](https://user-images.githubusercontent.com/108541991/200171224-d5604065-9e6c-41d1-bbe1-9d829d77e320.jpg)
+
+ 
+ 
