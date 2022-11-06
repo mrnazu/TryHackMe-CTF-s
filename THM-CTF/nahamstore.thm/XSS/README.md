@@ -34,7 +34,7 @@ discount=12```
 
 ### then i'm trying to execute xss using those parameter. but not interesting. so i changed the request method.
 
-```GET /product?id=2&add_to_basket=1&discount=12 HTTP/1.1
+``` GET /product?id=2&add_to_basket=1&discount=12 HTTP/1.1
 Host: nahamstore.thm
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
@@ -44,7 +44,7 @@ Origin: http://nahamstore.thm
 Connection: close
 Referer: http://nahamstore.thm/product?id=2
 Cookie: session=9604154dd85ab285184436dd6ebc37cd
-Upgrade-Insecure-Requests: 1```
+Upgrade-Insecure-Requests: 1 ```
 
 and it also refleted back on the page 
 
