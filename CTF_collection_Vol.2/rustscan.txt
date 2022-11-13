@@ -1,0 +1,26 @@
+# Nmap 7.92 scan initiated Thu Nov 10 14:06:08 2022 as: nmap -vvv -p 22,80 -sC -sV -o rustscan.txt 10.10.232.218
+Nmap scan report for 10.10.232.218
+Host is up, received reset ttl 63 (0.10s latency).
+Scanned at 2022-11-10 14:06:09 EST for 31s
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 5.9p1 Debian 5ubuntu1.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 1b:c2:b6:2d:fb:32:cc:11:68:61:ab:31:5b:45:5c:f4 (DSA)
+| ssh-dss AAAAB3NzaC1kc3MAAACBAICZbLNIOa6Xx8zj7A1bZmQnqMwS+4k/eDqPTSxUAfkGU7k0UVOhHQDvcfBAmggbjC7zm0gHX5RQvn3gxbzsV/SeRAjp+DXhg4uLkTkFAwDssFn8lOQjEOk1XUHvFFwWXQCNqWxZ+rM7mIZIntYbjdQybCUp0pZgA3+spPXGdVWvAAAAFQDsrnpTlNjNb7iBzNAS6BuKnTqqnQAAAIBd9xpY8kXVLnAAQCKH4BhoUxgQNtyci+g//rI8jPuGQigyYBrqBlpCXwS+eDqtr1nXJBvJrUlqPpXPS+x0FtNcf/je24sallrIb5X5T44LIPHHO+u8yqRcKlbd3Ze8Tu6paXbVCI9sxh8Sf2Rj8oD1iVTbWCGBDl+Y0im9fkl1+QAAAIBiaJ1Ce3Xho/l3hVFLBQExyMx9sAjNC2cbZZCPvIvq6849baYcfb7bQE0IWtSaJSVLIBQAlZ+RYDxQWsdQQkyQl/0KOTojEt83/OteWa16veZhmG8EYIlJ1pxkKttBZbeePB61y0XmYsyOfXqbFztBkS4wKbgkZaPlZyg+q2Vb9g==
+|   2048 8d:88:65:9d:31:ff:b4:62:f9:28:f2:7d:42:07:89:58 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCUAD22WKbNzRInAbbqdU8lcwDS6237CJZYlln/DGVYvlTBkcNCUCZ45vqb1Hnt+0hbdroxtfKrtScpHQVBMDmxhhc7QojK1WYMdaab1kcClcU0huEOIWgUFD18nlbij9TDk/v8B6H1IQ9UCpXdmmypxwu65g5EZm2H6+b4YLk28wZyU3Pt6DaSeO5JFc5ojg21f5g8RjGO1vJF4RiEHIs/Fq/ErAo3VmhoF/Wr5b1yTbZXgF4+1kXrt5EqsfmQrhm12Vnv4fjsIt4lxlLyypxx2LWDviEBcYiyD57HcLXo50CVvJaufpVGxGa5U/SrE2QeRdy8W/+jg519aNdQoyDT
+|   256 40:2e:b0:ed:2a:5a:9d:83:6a:6e:59:31:db:09:4c:cb (ECDSA)
+|_ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMRZRUQkFhSMJkWs8Gb6yKlWOCWtuKh73fLtH2az3J9+D6+OtBTEbZmfvyaQrog0KjJinQEOh4FQpf/WWiBIR0g=
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.2.22 ((Ubuntu))
+|_http-server-header: Apache/2.2.22 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/VlNCcElFSWdTQ0JKSUVZZ1dTQm5JR1VnYVNCQ0lGUWdTU0JFSUVrZ1p5QldJR2tnUWlCNklFa2dSaUJuSUdjZ1RTQjVJRUlnVHlCSklFY2dkeUJuSUZjZ1V5QkJJSG9nU1NCRklHOGdaeUJpSUVNZ1FpQnJJRWtnUlNCWklHY2dUeUJUSUVJZ2NDQkpJRVlnYXlCbklGY2dReUJDSUU4Z1NTQkhJSGNnUFElM0QlM0Q=
+|_http-title: 360 No Scope!
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov 10 14:06:40 2022 -- 1 IP address (1 host up) scanned in 32.48 seconds

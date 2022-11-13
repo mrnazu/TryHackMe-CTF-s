@@ -1,0 +1,19 @@
+Task 1 Enumeration through Nmap
+ 
+1. How many ports are open? = 3
+2. What is the version of nginx? = 1.16.1
+3. What is running on the highest port? = Apache
+
+
+Task 2 Compromising the machine 
+
+#<p hidden>its encoded with ba....:ObsJmP173N2X6dOrAgEAL0Vu</p>
+ 
+1. Using GoBuster, find flag 1. = flag{f1rs7_fl4g}
+2. Further enumerate the machine, what is flag 2? = flag{1m_s3c0nd_fl4g} 
+3. Crack the hash with easypeasy.txt, What is the flag 3? = flag{9fdafbd64c47471a8f54cd3fc64cd312}
+4. What is the hidden directory? = /n0th1ng3ls3m4tt3r
+5. Using the wordlist that provided to you in this task crack the hash what is the password? = mypasswordforthatjob
+6. What is the password to login to the machine via SSH? = iconvertedmypasswordtobinary 
+7. What is the user flag? = flag{n0wits33msn0rm4l}
+8. What is the root flag? = flag{63a9f0ea7bb98050796b649e85481845}
