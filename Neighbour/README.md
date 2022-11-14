@@ -18,7 +18,9 @@ http://10.10.130.69/profile.php?user=guest
 ###### go back into your tryhackme, and it say: Check out similar content on TryHackMe: IDOR. so maybe it's vulnerable to IDOR.
 
 # boom!
+
 ```http://10.10.130.69/profile.php?user=admin ```
+
 ![admin](https://user-images.githubusercontent.com/108541991/201654560-5d4b71f8-4b22-47dc-9b92-faf490b04ea5.jpg)
 ## Hi, admin. Welcome to your site. The flag is: 
 ```flag{66be95c478473d91a5358f2440c7af1f}```
