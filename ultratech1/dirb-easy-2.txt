@@ -1,0 +1,33 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb-easy-2.txt
+START_TIME: Mon Nov 21 14:36:01 2022
+URL_BASE: http://10.10.249.172:31331/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.249.172:31331/ ----
+==> DIRECTORY: http://10.10.249.172:31331/css/
++ http://10.10.249.172:31331/favicon.ico (CODE:200|SIZE:15086)
+==> DIRECTORY: http://10.10.249.172:31331/images/
++ http://10.10.249.172:31331/index.html (CODE:200|SIZE:6092)
+==> DIRECTORY: http://10.10.249.172:31331/javascript/
+==> DIRECTORY: http://10.10.249.172:31331/js/
++ http://10.10.249.172:31331/robots.txt (CODE:200|SIZE:53)
++ http://10.10.249.172:31331/server-status (CODE:403|SIZE:304)
+
+---- Entering directory: http://10.10.249.172:31331/css/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://10.10.249.172:31331/images/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)

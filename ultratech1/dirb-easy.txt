@@ -1,0 +1,23 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb-easy.txt
+START_TIME: Mon Nov 21 14:31:59 2022
+URL_BASE: http://10.10.249.172:8081/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.249.172:8081/ ----
++ http://10.10.249.172:8081/auth (CODE:200|SIZE:39)
++ http://10.10.249.172:8081/ping (CODE:500|SIZE:1094)
+
+-----------------
+END_TIME: Mon Nov 21 14:42:46 2022
+DOWNLOADED: 4612 - FOUND: 2
